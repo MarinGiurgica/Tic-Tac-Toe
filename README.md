@@ -10,12 +10,18 @@ Enough with the talking, go on and look at my small interactive game:)
 ## Create Standalone Executable
 
 pip install pyinstaller
+
 cd Desktop
+
 pyinstaller --onefile --windowed --icon=icontictactoe.ico tictactoe.py
 
 """
 !!using command prompt!!
+
 => --onefile because we only want one executable
+
 => --windowed because we don`t want a console to be opened
+
 => icontictactoe.ico is our desired icon for the final executable, which must be in the same location as the tictactoe.py is, and it must be in an ico/exe format
+
 """
