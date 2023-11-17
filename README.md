@@ -7,7 +7,7 @@ It was built in Python and the GUI was done using the <Tkinter> module. The whol
 
 Enough with the talking, go on and look at my small interactive game:)
 
-#Create Standalone Executable
+# Create Standalone Executable
 
 pip install pyinstaller
 cd Desktop
